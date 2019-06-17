@@ -10,11 +10,11 @@ This repository contains some Dockerfiles for building Docker images:
    by default port 80 shows up php config page.
    
    
-- nodejs:
+- nodejs: 
    This Dockerfile is based on node:8-alpine, pm2 and build dependencies are installed, 
-   if you want use this dockerfile I recommend remove build dependecies after npm install to reduce docker image size.
+   if you want use this dockerfile I recommend remove build dependecies after npm install to reduce docker image size. 
    ``` Run apk del .build-dependencies ```
    
    
-- nodejs-no-builddep:
+- nodejs-no-builddep: 
    same as nodejs Dockerfile but without build dependecies
